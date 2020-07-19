@@ -1,0 +1,25 @@
+{
+  "name": "@wangxb/eslint-config-windraxb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/windraxb/eslint-config-windraxb.git",
+  "author": "windraxb <xiaobin_0007@163.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript"
+  ],
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.9"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ]
+}

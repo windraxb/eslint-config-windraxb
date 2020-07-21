@@ -34,8 +34,6 @@ export const NAMESPACES = Object.keys(NAMESPACE_CONFIG) as Namespace[];
 export function buildEslintrcMeta() {
     return `
 /**
- * ${pkg.description}
- * ${pkg.homepage}
  *
  *
  * 依赖版本：

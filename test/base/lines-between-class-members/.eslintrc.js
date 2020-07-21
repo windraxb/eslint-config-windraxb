@@ -1,9 +1,8 @@
 module.exports = {
     rules: {
         /**
-         * 类的成员之间是否需要空行
-         * @reason 有时为了紧凑需要挨在一起，有时为了可读性需要空一行
+         * 类的成员之间需要空行，如果写在同一行跳过空行检查
          */
-        'lines-between-class-members': 'off'
+        'lines-between-class-members': ["error", "always", { "exceptAfterSingleLine": true }]
     }
 };
